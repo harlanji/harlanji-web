@@ -1,10 +1,9 @@
 {% extends "/html/base.html" %}
 {% block content %}
-<a href="https://github.com/harlanji/tinydatacenter/tree/master/harlanji.com"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
 <h1>{{ post.contact.name }}</h1>
 
-<p>Welcome to {{post.contact.first-name}}'s official public profile.</p>
+<p>Welcome to the origin of {{post.contact.first-name}}'s online presence.</p>
 
 <hr>
 
@@ -13,8 +12,8 @@
     <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
       <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
     </li>
-    <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Writing and Opinions</a></li>
   {% endfor %}
+  <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Writing and Opinions</a></li>
 </ul>
 
 <hr>
