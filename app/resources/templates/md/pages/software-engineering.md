@@ -4,6 +4,7 @@
  :navbar? true
 }
 
+
 ## Roles by project
 
 | Project                | FE | BE | Ops | DM | PM | Arch | Mentor | Mobile | Time      | Tools |
@@ -20,3 +21,15 @@
 | Web Agency Clients     | X  | X  | X   |    |    | X    | X      |        | 2002-07   | PHP, Java, Maven |
 | [Fresh2](portfolio.html#freshspooge)                 | X  | X  | X   | X  | X  | X    |        |        | 2002      | PHP, Linux, VB |
 | [COSMACS](portfolio.html#cosmacs)                | X  | X  |     |    | X  | X    |        |        | 2000      | VM, C, Linux |
+
+## Some Familiar Packages (2018)
+
+* Docker
+* Clojure
+* Java
+* NodeJS
+* AWS
+* Google Cloud
+* React
+* Kubernetes
+* Hyperledger Fabric
