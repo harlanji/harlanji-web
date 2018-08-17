@@ -20,6 +20,7 @@
     (let [req-uri (.substring (url-decode (:uri request)) 1)
           res-path (path req-uri (when (:clean-urls? (read-config)) "index.html"))]
       (or (resource-response res-path {:root "public"})
+            (resource-response res-path {:root "vendor/public"})
           (handler request)))))
 
 (defroutes routes

@@ -2,3 +2,15 @@
   background-color: black;
   color: #c0c0c0;
 }
+
+/* Canceling out bootstrap defaults... is there a version without fonts?  */
+
+html, body {
+
+  font-family: Times New Roman, Helvetica, serif;
+
+}
+
+body {
+  background-image: none;
+}
