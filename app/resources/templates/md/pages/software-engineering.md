@@ -9,6 +9,7 @@
 
 | Project                | FE | BE | Ops | DM | PM | Arch | Mentor | Mobile | Time      | Tools |
 | - | - | - | - | - | - | - | - | - | - | - |
+| [iSpoogeLive](portfolio.html#ispooge_live)        |    |    | X   | X  | X  | X    | X      |        | 2018      | Docker, Cryogen, Streaming Video |
 | [Tiny DataCenter](portfolio.html#tiny_datacenter)        |    |    | X   | X  | X  | X    | X      |        | 2018      | Docker, Clojure |
 | BlockChain Platform    |    |    | X   |    |    | X    | X      |        | 2017      | Kubernetes, Docker, GCP |
 | [AdressBook.Link](portfolio.html#addressbooklink)        |    |    |     |    | X  | X    |        | X      | 2017      | JS, React Native, ObjC |
