@@ -1,5 +1,11 @@
 {% extends "/html/base.html" %}
 {%block subtitle %}: {{post.title}}{% endblock %}
+{% block head %}
+{% if post.thumbnail-url %}
+<meta property="og:image" content="{{site-url}}/{{post.thumbnail-url}}">
+{% endif %}
+
+{% endblock %}
 {% block content %}
 <div id="post">
 <a href="/">Home</a>
