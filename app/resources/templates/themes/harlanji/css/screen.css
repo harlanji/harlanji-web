@@ -3,14 +3,17 @@
   color: #c0c0c0;
 }
 
-/* Canceling out bootstrap defaults... is there a version without fonts?  */
-
-html, body {
-
+body {
   font-family: Times New Roman, Helvetica, serif;
-
+  background-image: none;
+  font-weight: normal;
 }
 
-body {
-  background-image: none;
+ul, ol {
+  list-style: inherit;
+  
+}
+
+h1 {
+  color: black;
 }
