@@ -2,6 +2,13 @@
 {%block subtitle %}: {{post.title}}{% endblock %}
 {% block head %}
 {% if post.thumbnail-url %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@harlanji">
+<meta name="twitter:creator" content="@harlanji">
+
+<meta property="og:url" content="{{site-url}}{{uri}}">
+<meta property="og:title" content="{{post.title}}">
+<meta property="og:description" content="{{post.title}}.">
 <meta property="og:image" content="{{site-url}}/{{post.thumbnail-url}}">
 {% endif %}
 
