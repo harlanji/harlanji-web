@@ -2,24 +2,13 @@
 {% block content %}
 
 
-
-<h1>{{ post.contact.name }}</h1>
+<div id="page-header">
+<h2>{{ post.contact.name }}</h2>
+</div>
 
 <p>Welcome to the origin of {{post.contact.first-name}}'s online presence.</p>
 
 <hr>
-
-<ul>
-  {% for nav-page in navbar-pages %}
-    <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
-      <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
-    </li>
-  {% endfor %}
-  <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Archives</a></li>
-</ul>
-
-<hr>
-
 
 <p>Take at least once daily:</p>
 

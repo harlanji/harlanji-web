@@ -29,7 +29,34 @@
 </head>
 <body>
 
- <div class="container">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">HarlanJI</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+  {% for nav-page in navbar-pages %}
+    <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
+      <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
+    </li>
+  {% endfor %}
+  <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Archives</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container" style="padding-top: 70px">
+
+
                 {% block content %}
                 {% endblock %}
 </div>
