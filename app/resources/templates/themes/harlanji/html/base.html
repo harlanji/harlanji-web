@@ -30,15 +30,27 @@
 <body>
 
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="/">HarlanJI</a>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse in" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
           <ul class="dropdown-menu">
   {% for nav-page in navbar-pages %}
     <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
@@ -46,24 +58,23 @@
     </li>
   {% endfor %}
   <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Archives</a></li>
-          </ul>
         </li>
       </ul>
-
-      <ul class="nav navbar-nav pull-right">
+      
+      <ul class="nav navbar-nav navbar-right">
       			<li><a href="https://github.com/harlanji"><img src="img/github.png" alt="github" height="19"></a></li>
             <li style="height: 50px">
                 <a href="https://www.patreon.com/bePatron?u=5487270" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
             </li>
+        
       </ul>
-             
-    </div>
-
+    </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 
-<div class="container" style="padding-top: 70px">
+
+<div class="container-fluid">
 
                 {% block content %}
                 {% endblock %}
