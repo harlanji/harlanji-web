@@ -3,18 +3,26 @@
 
 
 <div id="page-header">
-<h2>{{ post.contact.name }}</h2>
+<h2>{{ contact.name }}</h2>
 </div>
 
-<p>Welcome to the origin of {{post.contact.first-name}}'s online presence.</p>
+<p>Welcome to the origin of {{contact.first-name}}'s online presence.</p>
+
+<hr>
+
+<div id="post">
+
+{% include "/html/post-content.html" %}
+
+</div>
 
 <hr>
 
 <p>Take at least once daily:</p>
 
-<iframe width="560" height="315" src="{{ post.tao-yt-uri }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ tao-yt-uri }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-<p>Contact: {{post.contact.email}} or {{post.contact.phone-number}}.</p>
+<p>Contact: {{contact.email}} or {{contact.phone-number}}.</p>
 
 <p>I prefer to meet up; Facetime is next best; phone call is next best; email is next best; texting for quick messages is aiight.</p>
 
