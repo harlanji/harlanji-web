@@ -12,6 +12,17 @@
 
 <div id="post">
 
+
+{% if post.tags|selmer-some-tag?:"podcast" %}
+
+{% if post.cover-src %}
+<img src="{{ post.cover-src}}" alt="cover image">
+{% endif %}
+
+{% include "/html/podcast-audio.html" %}
+
+{% endif %}
+
 {% include "/html/post-content.html" %}
 
 </div>

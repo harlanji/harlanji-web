@@ -6,9 +6,19 @@
             [cryogen-core.watcher :refer [start-watcher!]]
             [cryogen-core.plugins :refer [load-plugins]]
             [cryogen-core.compiler :refer [compile-assets-timed read-config]]
-            [cryogen-core.io :refer [path]]))
+            [cryogen-core.io :refer [path]]
+            [selmer.filters :as selmer-filters]
+            [clojure.pprint :refer [pprint]]))
+
+
+(defn selmer-some-tag? [x y]
+  (let [result (some (fn [tag]    (= (str (:name tag)) (str (read-string y))))
+                      x)]
+    [:safe (str (boolean result))]))
 
 (defn init []
+  (selmer-filters/add-filter! :selmer-some-tag? selmer-some-tag?)
+
   (load-plugins)
   (compile-assets-timed)
   (let [ignored-files (-> (read-config) :ignored-files)]
