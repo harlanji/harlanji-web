@@ -91,15 +91,6 @@ The service was implemented as a [React Native]() app with a small NoteJS REST A
 service. It was based on an Objective-C prototype that I built called [private-contact-matching]().
 
 
-## Political motivation
-
-I was responsible for writing this code and hitting send. I took this job because I was in a bad position and
-felt that I had no choice but to accept this position due to lack of resources and a broken resume and confidence
-due to being wrongly fired by OpenTable, namely the pussy mother fucker [Rob Smith]().
-
-
-
-
 
 
  
