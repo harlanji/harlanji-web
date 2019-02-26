@@ -49,16 +49,12 @@
     <div class="collapse navbar-collapse in" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
-          <ul class="dropdown-menu">
   {% for nav-page in navbar-pages %}
     <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
       <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
     </li>
   {% endfor %}
   <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Archives</a></li>
-        </li>
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
