@@ -2,6 +2,16 @@
 {%block subtitle %}: Archives{% endblock %}
 {% block content %}
 
+<script src="js/vis.js">
+<script>
+var visItems = [
+  // for each archive item, { ... }
+];
+
+</script>
+<div id="timeline">
+
+</div>
 
 <div id="posts">
 
@@ -9,7 +19,7 @@
 
 
     <div id="page-header">
-        <h2>Archives</h2>
+        <h2>{{archives-title}}</h2>
     </div>
 
     {% for group in groups %}

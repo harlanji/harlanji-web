@@ -14,6 +14,7 @@
  :recent-posts         3
  :post-date-format     "yyyy-MM-dd"
  :archive-group-format "yyyy MMMM"
+ :archives-title       "Timeline"
  :sass-src             []
  :sass-path            "sass"
  :compass-path         "compass"

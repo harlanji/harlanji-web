@@ -12,12 +12,6 @@
     {% script "js/bootstrap-3.3.0.js" %}
 
 
-    {% style "PixelKit-Bootstrap-UI-Kits/funky-tunes/funky-tunes-css/style.css" %}
-
-    {% script "PixelKit-Bootstrap-UI-Kits/funky-tunes/funky-tunes-css/js/libs/jquery-ui.min.js" %}
-    {% script "PixelKit-Bootstrap-UI-Kits/funky-tunes/funky-tunes-css/js/general.js" %}
-    
-
     {% style "css/screen.css" %}
 
 
@@ -54,7 +48,7 @@
       <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
     </li>
   {% endfor %}
-  <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Archives</a></li>
+  <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">{{archives-title}}</a></li>
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
