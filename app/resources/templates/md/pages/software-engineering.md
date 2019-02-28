@@ -7,12 +7,7 @@
 
 ### Career Objective
 
-I am qualified to become the Software Architect of a valuable corporate information system.
-
-I'd be happy to work under a corporate master, and can lead small teams.
-
-While I that opportunity finds me, I can steer or move your systems in that direction.
-
+To work under a master Software Architect on a valuable information system.
 
 ### Roles by project
 
@@ -47,46 +42,45 @@ for my social groups and I out of passion and toward stable operations.
 ### Familiar Tools
 
 
-| Tool | Familiarity | Notes |
-| - | - | - |
-| Docker |
-| Clojure |
-| Java |
-| NodeJS |
-| AWS | | Intermediate | Primary development platform for several projects |
-| Google Cloud |
-| React | Low | Used by proxy via ClojureScript, and concepts via vanilla JS / arch |
-| Kubernetes on Google Cloud (GKE) | Intermediate |
-| Hyperledger Fabric | High | DevOps, Light Runtime, Kafka |
-| Kafka on AWS | High |
-| ClojureScript | Low | Used to toy projects and architeture proof of concepts |
-| Samza | High |
-| Vanilla JS | High | Experience making single-page apps goes back to at least 2008, with XHR/Ajax via VB6 going back to at least 2003. |
-| Openfire |
-| PostgreSQL | High | Use as primary DB and have written an operator extension. |
-| Java FlightRecorder | High | Used to increase density of Samza based system interoping with Clojure |
-| Cryogen |
-| PThreads |
-| MPI |
-| CUDA |
-| Maven Mojo |
-| Nashorn  |
-| Ant |
-| Leiningen |
-| Reagent |
-| Bluefish |
-| Auth0 |
-| Clara |
-| Drools |
-| Selmer  |
-| iOS API |
-| Android API |
-| React Native |
-| Bidi |
-| D3 |
-| Core.async |
-| Maven Mojo |
-| Java ServerFaces |
+| Tool | Familiarity | Desire | Notes |
+| - | - | - | - |
+| Docker | High | High |
+| Clojure | High | High |
+| Java | High | Medium |
+| NodeJS | High | Low |
+| AWS | Intermediate | Low | Primary development platform for several projects |
+| Google Cloud | Intermediate | Low |
+| React | Low | High | Used by proxy via ClojureScript, and concepts via vanilla JS / arch |
+| Kubernetes | Intermediate | Medium | Used on Google Cloud (GKE) |
+| Hyperledger Fabric | High | Medium | DevOps, Light Runtime, Kafka |
+| Kafka | High | High | Used mainly on AWS |
+| ClojureScript | Low | High | Used to toy projects and architeture proof of concepts |
+| Samza | High | Medium |
+| Javascript | High | Low | Experience making single-page apps goes back to at least 2008, with XHR/Ajax via VB6 going back to at least 2003. |
+| Openfire | Low | Low |
+| PostgreSQL | High | High | Use as primary DB and have written an operator extension. |
+| Java FlightRecorder | High | High | Used to increase density of Samza based system interoping with Clojure |
+| Cryogen | Intermediate | High |
+| PThreads | Intermediate | High |
+| MPI | Low | High |
+| CUDA | Low | High |
+| Maven Mojo | Intermediate | Low |
+| Nashorn  | Intermediate | Medium |
+| Ant | High | Low |
+| Leiningen | Intermediate | High |
+| Reagent | Low | High | And Re-frame, a bit. |
+| Bluefish | Intermediate | Medium | Primary IDE, works on Ras Pi and is in most package managers. |
+| Auth0 | Intermediate | Low | Complicated control UI. |
+| Clara | Low | High |
+| Drools | Low | High |
+| Selmer  | Low | Medium |
+| iOS API | Low | Medium |
+| Android API | Low | Medium |
+| React Native | Intermediate | High |
+| Bidi | Low | High |
+| D3 | Intermediate | High |
+| Core.async | Low | High |
+| Java ServerFaces | Intermediate | Low | Dated, 1.2... But was thorough and pushed the boundaries. |
 
 ==
 
