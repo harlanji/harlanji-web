@@ -3,8 +3,44 @@
  :navbar? true
  :page-index 500}
  
+
+**Status: Draft written mostly on a plane.**
+
+
+# HarlanJI.com
+
+* 2018-19
+
+This website serves as the "origin of Harlan's online presence" and exists to replace my presence on "social networking"
+sites to the maximum extent possible, using old school Internet and Unix ideas. It's based on iSpooge Live and TinyDC work
+(below), using the same technology stack to realize my own vision of internet presence. It lacks the comedy angle to 
+a large degree, focusing more on professional presentation. But given screenshot outrage culture, there is no point
+using something like a pen name when people can bring it out and use it against me anyway... ie. a pen name is only
+a temporary barrier that's good for auxilary functions like marketing. 
+
+Since I use the @harlanji handle on most social sites, I am motivated to build data importers which will then end up
+in the upstream iSpooge Live / TinyDC projects and be consumed by HarlanJI.com. It naturally doubles as an installation
+of the stack that can validate its usefulness.
+
+
+# City Apper
+
+* 2018-19
+* [Info](https://cityapper.com/about/)
  
-**Status: Draft written on a plane.**
+City Apper is a play off the connection between hip-hop / old school gangster rap and programming in 2018.
+
+
+    I never said I was a big app star.
+    
+    App battles in the park.
+
+
+The idea stems from leadership in my software engineering career, brought into focus via landscaping and moving work.
+
+It touches important topics such as legal classification, tranining structure, compensation.
+
+    Picture Mark Zuckerberg as the world's most successful cocaine dealer, and build the analogy from there.
 
 
 # iSpooge Live

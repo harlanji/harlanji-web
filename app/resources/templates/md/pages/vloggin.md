@@ -1,7 +1,7 @@
 {:title "Vloggin'"
  :layout :page
- :navbar? true
- :page-index 600}
+ :navbar? false
+ :page-index 300}
  
 I began vlogging in late 2017 during a sabbatical without pre-determined subject matter. I bought some 
 equipment that looked useful and had decent reviews, knowing that I was going to create project but 
