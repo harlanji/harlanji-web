@@ -1,13 +1,13 @@
 {:title "Portfolio"
  :layout :page
  :navbar? true
- :page-index 500}
+ :page-index 200}
  
 
 **Status: Draft written mostly on a plane.**
 
 
-# HarlanJI.com
+### HarlanJI.com
 
 * 2018-19
 
@@ -23,7 +23,7 @@ in the upstream iSpooge Live / TinyDC projects and be consumed by HarlanJI.com. 
 of the stack that can validate its usefulness.
 
 
-# City Apper
+### City Apper
 
 * 2018-19
 * [Info](https://cityapper.com/about/)
@@ -43,7 +43,7 @@ It touches important topics such as legal classification, tranining structure, c
     Picture Mark Zuckerberg as the world's most successful cocaine dealer, and build the analogy from there.
 
 
-# iSpooge Live
+### iSpooge Live
  
 * 2018
 * [Info](https://ispooge.com/fresh.html)
@@ -64,7 +64,7 @@ sites, seamlessly.
 See iSpooge Daily 2018 below for details of content.
 
 
-# Sociopathic Media
+### Sociopathic Media
 
 * 2018
 * [Info](https://ispooge.com/fresh.html)
@@ -86,7 +86,7 @@ network (CDN)--the secret sauce of silicon valley.
 
  
  
-# Tiny DataCenter
+### Tiny DataCenter
 
 * 2018
 * [Info](https://tinydatacenter.com/wwwwwh.html)
@@ -108,7 +108,7 @@ web services or similar docker-supporting cloud platforms.
 
 
  
-# AddressbookLink
+### AddressbookLink
 
 * 2017
 * [Info](https://addressbook.link)
@@ -127,10 +127,26 @@ The service was implemented as a [React Native]() app with a small NoteJS REST A
 service. It was based on an Objective-C prototype that I built called [private-contact-matching]().
 
 
+### Event Sourcing in Clojure
+
+* 2016
+* [Info](https://github.com/harlanji/event-sourcing-clj)
+
+This project was built to experiment with Event Sourcing at the language and platform level.
 
 
+More coming...
+
+### ClojureSeed
+
+* 2016
+* [Info](https://github.com/harlanji/clojureseed)
+
+This project was built to demonstrate a common Clojure code base compiling to front end, back end, and native mobile.
+
+More coming...
  
- # Soashable and Xmpp4JS
+### Soashable and Xmpp4JS
  
 * 2008 
 * [Info](http://soashable.sf.net)
@@ -160,7 +176,7 @@ It was meant to be a boilerplate for developers to customize and included a pack
 could be used to represent tree lists of data for ServiceDisco-backed components and a rich chat display.
 
 
-# PhpServerFaces
+### PhpServerFaces
 
 * 2006
 * [Info](https://sourceforge.net/projects/phpserverfaces)
@@ -170,7 +186,7 @@ for I started to port some of the data binding functionality and eventually expa
 portion of the original JSF spect in PHP with test cases. 
 
 
-# FreshSpooge
+### FreshSpooge
 
 * 2002
 * Lost -- may exist in archive
@@ -182,7 +198,7 @@ of the modules included blogging, encryption, credit card processing, shopping c
 
 
 
-# iSpooge Daily
+### iSpooge Daily
 
 * 2002, 2018
 * 2018: [Website](https://ispooge.com)
@@ -199,7 +215,7 @@ available I decided to continue the project and create a link back to the spirit
 to bring back old ways and draw from the energy of nostalgia.
 
 
- # COSMACS
+### COSMACS
  
 * 1998
 * Lost -- may exist in archive
