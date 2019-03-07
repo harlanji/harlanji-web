@@ -1,4 +1,4 @@
-{:title "Home"
+{:title "Blog"
  :layout :home
  :page-index 100
  :navbar? true}
