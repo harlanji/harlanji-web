@@ -1,7 +1,7 @@
 {:title "Maslow's Hierarchy of Compounding Deficiencies"
  :layout :post
  :description "A description of the energetic defecit and its effects on Maslow's hierarchy."
- :thumbnail-url "img/2019-01-14-self-actualization/maslows-hierarchy-compounding-deficiencies.png"}
+ :thumbnail-url "/img/2019-01-14-self-actualization/maslows-hierarchy-compounding-deficiencies.png"}
 
 When a lower order need is not met then it is non-sensical to prove into needs
 that are at a higher level, such as during a job interview. It is a useful tool
@@ -11,6 +11,6 @@ your energy levels when you are deficient of lower order needs, and
 notice  and how much
 harder it becomes to do higher order functions.
 
-![Maslow's Hierarchy of Compounding Deficiencies](img/2019-01-14-self-actualization/maslows-hierarchy-compounding-deficiencies.png)
+![Maslow's Hierarchy of Compounding Deficiencies](/img/2019-01-14-self-actualization/maslows-hierarchy-compounding-deficiencies.png)
 
 
