@@ -1,6 +1,6 @@
 {:title "Software Engineering"
  :layout :software-engineering
- :page-index 200
+ :page-index 500
  :navbar? true
 }
 
@@ -8,6 +8,17 @@
 ### Career Objective
 
 To work under a master Software Architect on a valuable information system.
+
+### Talks
+
+* MinneDemo - Soashable / [XMPP on the Web](https://minnestar.org/minnebar/sessions/xmpp-on-the-web-soashable/)
+* TC JUG - Scala and Java EE
+* MinneBar - [Discovering Scala](https://minnestar.org/minnebar/sessions/discovering-scala/)
+* Hacker Fair - DJ with Spotify
+* BA Samza - [Real-Time Analytics with Clojure](https://www.youtube.com/watch?v=NJs5cv0JF_4)
+* ForwardJS - [Software Design with the Stack in Mind](https://www.youtube.com/watch?v=SIaJRtpcLnc)
+
+
 
 ### Roles by project
 
@@ -24,6 +35,7 @@ for my social groups and I out of passion and toward stable operations.
 | ClojureSeed + ES       |    | X  | X   |    | X  | X    | X      | X      | 2016-17   | Clojure, JS, JVM |
 | RT Analytics v2        |    | X  | X   |    |    | X    | X      |        | 2015-16   | JVM, Clojure, Kafka, AWS |
 | RT Analytics Dashboard | X  |    |     |    |    |      |        |        | 2015      | JS, D3.js |
+| DJ with Spotify |    | X   |     | X  | X  | X    |        |        | 2013      | C / Mixxx, libspotify |
 | [Soashable; xmpp4js](portfolio.html#soashable_and_xmpp4js)     | X  | X  | X   | X  | X  | X    | X      |        | 2008      | JS, Maven, Java |
 | HealthCare Eligibility | X  |    |     |    |    |      | X      |        | 2007      | Java |
 | Web Agency Clients     | X  | X  | X   |    |    | X    | X      |        | 2002-07   | PHP, Java, Maven |
@@ -81,6 +93,8 @@ for my social groups and I out of passion and toward stable operations.
 | D3 | Intermediate | High |
 | Core.async | Low | High |
 | Java ServerFaces | Intermediate | Low | Dated, 1.2... But was thorough and pushed the boundaries. |
+
+
 
 ==
 
