@@ -11,12 +11,12 @@ To work under a master Software Architect on a valuable information system.
 
 ### Talks
 
-* MinneDemo - Soashable / [XMPP on the Web](https://minnestar.org/minnebar/sessions/xmpp-on-the-web-soashable/)
-* TC JUG - Scala and Java EE
-* MinneBar - [Discovering Scala](https://minnestar.org/minnebar/sessions/discovering-scala/)
-* Hacker Fair - DJ with Spotify
-* BA Samza - [Real-Time Analytics with Clojure](https://www.youtube.com/watch?v=NJs5cv0JF_4)
-* ForwardJS - [Software Design with the Stack in Mind](https://www.youtube.com/watch?v=SIaJRtpcLnc)
+* ForwardJS / 2016 - [Software Design with the Stack in Mind](https://www.youtube.com/watch?v=SIaJRtpcLnc)
+* BA Samza / 2015 - [Real-Time Analytics with Clojure](https://www.youtube.com/watch?v=NJs5cv0JF_4)
+* Hacker Fair /2013 - DJ with Spotify
+* MinneBar / 2010 - [Discovering Scala](https://minnestar.org/minnebar/sessions/discovering-scala/)
+* TC JUG - / 2010 Scala and Java EE
+* MinneDemo / 2008 - Soashable / [XMPP on the Web](https://minnestar.org/minnebar/sessions/xmpp-on-the-web-soashable/)
 
 
 
@@ -95,6 +95,9 @@ for my social groups and I out of passion and toward stable operations.
 | Java ServerFaces | Intermediate | Low | Dated, 1.2... But was thorough and pushed the boundaries. |
 
 
+### Resume
+
+[![Resume](/img/2019-03-06-resume/resume-software-eng.png)](/img/2019-03-06-resume/resume-software-eng.pdf)
 
 ==
 
