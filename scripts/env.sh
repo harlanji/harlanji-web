@@ -2,7 +2,7 @@
 
 # use with source
 
-VERSION=35
+VERSION=36
 IMAGE=harlanji-build
 NAME=harlanji-build
 DEV_PORT=34000
