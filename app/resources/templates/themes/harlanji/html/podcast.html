@@ -21,6 +21,8 @@
 {% if post.cover-src %}
 <img src="{{ post.cover-src}}" alt="cover image">
 {% endif %}
+    {% include "/html/post-header.html" %}
+
     {% include "/html/podcast-audio.html" %}
 
     {% include "/html/post-content.html" %}
