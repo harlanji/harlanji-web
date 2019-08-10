@@ -11,11 +11,23 @@ depleted my savings.
 
 ## 2019
 
-![Needs: 2019](/img/2019-80-10-maslows-needs-quantified/needs-2019.png)]
+Homeless in SF:
+
+![Needs: 2019](/img/2019-08-10-maslows-needs-quantified/needs-2019.png)
 
 ## 2015
 
-![Needs: 2015](/img/2019-80-10-maslows-needs-quantified/needs-2015.png)]
+A year after moving to SF:
+
+![Needs: 2015](/img/2019-08-10-maslows-needs-quantified/needs-2015.png)
+
+
+## 2000
+
+As a young programmer in high school, still living with my parents:
+
+![Needs: 2000](/img/2019-08-10-maslows-needs-quantified/needs-2000.png)
+
 
 
 ## Conclusions
