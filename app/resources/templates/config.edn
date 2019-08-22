@@ -24,9 +24,9 @@
  :disqus?              false
  :disqus-shortname     ""
  :ignored-files        [#"\.#.*" #".*\.swp$" #".*\~$"]
- :posts-per-page       5
- :blocks-per-preview   2
- :previews?            false
+ :posts-per-page       6
+ :blocks-per-preview   6
+ :previews?            true
  :clean-urls?          true
  :hide-future-posts?   false
  :klipse               {}

@@ -12,6 +12,18 @@
         </div>
     </div>
     {{post.content|safe}}
+    
+    
+{% if post.tags|selmer-some-tag?:"podcast" %}
+
+{% if post.cover-src %}
+<img src="{{ post.cover-src}}" alt="cover image">
+{% endif %}
+
+{% include "/html/podcast-audio.html" with podcast= %}
+
+{% endif %}
+    
     <a href="{{post.uri}}">Continue reading &#8594;</a>
     <hr>
     {% endfor %}
