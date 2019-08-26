@@ -1,8 +1,11 @@
 {% extends "/html/base.html" %}
 {% block content %}
-<div id="post">
+<div id="post"> <!-- a virtual post of posts -->
+<div class="content">
+<div class="row">
     {% for post in posts %}
-    <div class="post-header">
+    <div class="col-sm-4">
+        <div class="post-header">
         <h2>{{post.title}}</h2>
         <div id="post-meta">
             {% if post.author %}
@@ -10,7 +13,9 @@
             {% endif %}
             <div class="date">{{post.date|date:longDate}}</div>
         </div>
-    </div>
+        </div>
+    
+    
     {{post.content|safe}}
     
     
@@ -25,7 +30,7 @@
 {% endif %}
     
     <a href="{{post.uri}}">Continue reading &#8594;</a>
-    <hr>
+    </div>
     {% endfor %}
 
     <div id="prev-next">
@@ -36,5 +41,7 @@
         <a class="right" href="{{next-uri}}">Next &raquo;</a>
         {% endif %}
     </div>
+</div>
+</div>
 </div>
 {% endblock %}
