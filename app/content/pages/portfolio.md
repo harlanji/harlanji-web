@@ -175,6 +175,17 @@ a dependency for the messenger project.
 It was meant to be a boilerplate for developers to customize and included a package of UI components that 
 could be used to represent tree lists of data for ServiceDisco-backed components and a rich chat display.
 
+### DevSpan
+
+* 2007
+
+This was a project that I created to facilitate my rapid idea to prototype pipeline. It tied together several
+services into a virtual private server in order to facilitate development and continuous integration. It was powered
+mainly by a Trac instance backed by Subversion and Postgre server, and a phpBB or similar forum. I granted
+access to local developers and a few people that I've known online since the beginning of my career.
+
+It fell out of use as GitHub came online and my development work shifted to university coursework.
+
 
 ### PhpServerFaces
 

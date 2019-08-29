@@ -27,7 +27,19 @@ function HACK_identifyData () {
   }
 }
 
+
+function HACK_skillsTable () {
+  var el = document.getElementById('skills_table');
+  while( el && el.nodeName.toLowerCase() != 'table') {
+    el = el.nextSibling;
+  }
+  if (el) {
+    el.setAttribute('id', 'roles_by_project_data');
+  }
+}
+
 HACK_identifyData();
+HACK_skillsTable();
 
 </script>
 

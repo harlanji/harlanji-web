@@ -9,7 +9,11 @@ moving to SF. For those unaware, I became homeless after slander from a manager 
 big name company destroyed my reputation and I was unable to continue my career and 
 depleted my savings.
 
+
+
 ## 2019
+
+<!--more-->
 
 Homeless in SF:
 

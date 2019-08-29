@@ -1,4 +1,9 @@
-{:site-title           "hi"
+{
+ :public-dest          "public"
+ :clean-urls           :trailing-slash
+ :collapse-subdirs?    false
+
+ :site-title           "hi"
  :author               "Harlan Iverson"
  :description          "This blog is awesome"
  :site-url             "https://harlanji.com/"
