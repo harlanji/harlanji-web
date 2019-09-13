@@ -2,7 +2,7 @@
 
 # use with source
 
-VERSION=43
+VERSION=44
 IMAGE=harlanji-build
 NAME=harlanji-build
 DEV_PORT=34000
@@ -14,8 +14,8 @@ HOSTS=#$DOMAIN
 
 
 NAME_STATIC=harlanji-static
-IMAGE_STATIC_LOCAL=harlanji-static
+IMAGE_STATIC_LOCAL=$NAME_STATIC
 
-IMAGE_STATIC=docker-registry.local:5000/harlanji.com/harlanji-static:23
+IMAGE_STATIC=docker-registry.local:5000/harlanji.com/$NAME_STATIC:$VERSION
 
 
