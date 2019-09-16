@@ -1,0 +1,35 @@
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">HarlanJI</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse in" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+  {% for nav-page in navbar-pages %}
+    <li {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
+      <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
+    </li>
+  {% endfor %}
+  <li {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">{{archives-title}}</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+      			<li><a href="https://github.com/harlanji"><img src="{{blog-prefix}}/img/github.png" alt="github" height="19" width="19"></a></li>
+      			<li><a href="https://instagram.com/harlanji"><img src="{{blog-prefix}}/img/instagram.png" alt="instagram" height="19" width="19"></a></li>
+            <li><a href="https://news.ycombinator.com/user?id=harlanji">Hacker News</a></li>  
+            <li><a href="https://fiverr.com/harlanji">Fiverr</a></li>        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
