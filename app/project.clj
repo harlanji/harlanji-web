@@ -9,11 +9,6 @@
                            [ring-server "0.5.0"]
                            [cryogen-markdown "0.1.11"]
                            [cryogen-core "0.2.1"]
-                           ;[javax.xml.bind/jaxb-api "2.3.0"]
-                           ;[org.glassfish.jaxb/jaxb-runtime "2.3.1"]
-                           ;[net.authorize/anet-java-sdk "LATEST"]
-                           ;[log4j "1.2.17"]
-                           
                            ]
             :plugins [[lein-ring "0.12.5"]]
             :aot [cryogen.core]
