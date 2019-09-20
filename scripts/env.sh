@@ -2,11 +2,12 @@
 
 # use with source
 
-VERSION=44
+VERSION=45
 IMAGE=harlanji-build
 NAME=harlanji-build
 DEV_PORT=34000
 STATIC_PORT=34080
+API_PORT=34081
 
 
 DOMAIN=harlanji.com
