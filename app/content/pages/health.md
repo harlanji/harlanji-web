@@ -3,7 +3,11 @@
  :navbar? true
  :page-index 600}
 
+Not a professional.
+
 Health is something that happens on its own, if your habits are right.
+
+* Try [Jain vegetarianism](/jain-vegetarianism/).
 
 I'm not an advocate of any particular diet or workout approach.
 
