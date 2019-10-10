@@ -1,6 +1,6 @@
 {:title "Review: Bear Editor"
  :layout :post
- :tags ["review"]
+ :tags ["review" "tech"]
  }
  
 ## Features

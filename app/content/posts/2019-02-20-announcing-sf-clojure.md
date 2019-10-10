@@ -1,4 +1,5 @@
 {:title "New SF Clojure Group"
+ :tags ["biz" "tech" "social"]
  :layout :post}
 
 I’ve created a new Clojure group in San Francisco: [SF Clojure](http://meetup.com/SF-Clojure).

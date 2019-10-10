@@ -1,5 +1,6 @@
 {:title "Maslow's Hierarchy of Compounding Deficiencies"
  :layout :post
+ :tags ["life" "illustration"]
  :description "A description of the energetic defecit and its effects on Maslow's hierarchy."
  :thumbnail-url "/img/2019-01-14-self-actualization/maslows-hierarchy-compounding-deficiencies.png"}
 

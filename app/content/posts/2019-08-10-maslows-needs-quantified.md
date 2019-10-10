@@ -1,4 +1,5 @@
 {:title "Maslow's Needs Quantified"
+ :tags ["life" "illustration"]
  :layout :post}
 
 Building on an idea I've [touched on before](/2019-01-14-self-actualization) 

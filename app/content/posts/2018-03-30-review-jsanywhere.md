@@ -1,6 +1,6 @@
 {:title "Review: JSAnywhere"
  :layout :post
- :tags ["review"]
+ :tags ["review" "tech"]
  }
 
 ## Features

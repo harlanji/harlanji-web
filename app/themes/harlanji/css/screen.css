@@ -14,6 +14,37 @@ ul, ol {
   
 }
 
-h1 {
-  color: black;
+.tweet {
+  margin-bottom: 2em;
+}
+
+.tweet .full-text {
+  font-size: 1.5em;	
+}
+
+.tweet .date {
+	font-style: italic;
+}
+
+.tweet .reply-to {
+	color: green;
+	font-weight: bold;
+}
+
+.post-tagged-biz {
+  color: blue;  
+}
+
+.post-tagged-life {
+  color: red;
+}
+
+
+.post-tagged-review {
+  color: gold;
+}
+
+
+.post-tagged-podcast {
+  color: green;
 }

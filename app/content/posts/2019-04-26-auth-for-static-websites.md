@@ -1,4 +1,5 @@
 {:title "Auth* for static websites"
+ :tags ["biz" "tech"]
  :layout :post}
  
 Auth is short for authentication and authorization both;

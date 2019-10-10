@@ -1,5 +1,6 @@
 {:title "Clojure Text Markup Ecosystem"
  :layout :post
+ :tags ["biz" "illustration" "tech"]
  :thumbnail-url "img/2019-04-11-clojure-text-markup-ecosystem/static-dynamic-templates.png"}
 
 Here's a drawing that I made to explain my concept of the gradient between static websites

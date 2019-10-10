@@ -1,5 +1,6 @@
 {:title "Energetic Universe drawing"
  :layout :post
+ :tags ["life" "illustration"]
  :description "A doodle that starts to capture an important idea"
  :thumbnail-url "/img/2019-01-14-energetic-universe/energetic-universe.png"}
 

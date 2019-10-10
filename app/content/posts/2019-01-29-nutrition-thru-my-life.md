@@ -1,7 +1,7 @@
 {:title "Nutrition thru My Life"
  :layout :podcast
  :audio-src "https://ispooge.com/media/Nutrition%20thru%20My%20Life.mp3"
- :tags ["podcast"]}
+ :tags ["podcast" "life"]}
 
 Here's a quick outline that I used to read and think into the prodcast from.
 

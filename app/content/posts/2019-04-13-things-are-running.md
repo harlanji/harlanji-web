@@ -1,5 +1,6 @@
 {:title "Things are running."
  :layout :post
+ :tags ["biz" "tech" "illustration"]
  :thumbnail-url "img/2019-04-13-things-are-running/things-are-running.png"}
 
 A  doodle of the capabilities of the Clojure ecosystem.

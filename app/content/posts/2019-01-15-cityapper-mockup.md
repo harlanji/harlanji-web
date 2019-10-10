@@ -1,4 +1,5 @@
 {:title "CityApper Mockup"
+ :tags ["biz" "tech" "illustration"]
  :layout :post}
 
 In [our last installment of CityApper](/2018-12-21-logo-sketch-2) we were sketching a logo. In this round,
