@@ -1,24 +1,35 @@
 {% extends "/html/base.html" %}
 {%block subtitle %}: {{post.title}}{% endblock %}
 {% block head %}
+
 {% if post.thumbnail-url %}
 <meta name="twitter:card" content="summary_large_image">
+{% else %}
+<meta name="twitter:card" content="summary">
+{% endif %}
 <meta name="twitter:site" content="@harlanji">
 <meta name="twitter:creator" content="@harlanji">
 
 <meta property="og:url" content="{{site-url}}{{uri}}">
 <meta property="og:title" content="{{post.title}}">
 <meta property="og:description" content="{{post.title}}.">
+
+{% if post.thumbnail-url %}
 <meta property="og:image" content="{{site-url}}/{{post.thumbnail-url}}">
 {% endif %}
 
 {% endblock %}
 {% block content %}
 <div id="post">
-<a href="/">Home</a>
 
-    {% include "/html/post-header.html" %}
+  {% include "/html/post-header.html" %}
+
+  {% block post-content %}
+
     {% include "/html/post-content.html" %}
+
+  {% endblock %}
+    
     <div id="prev-next">
         {% if post.prev %}
         <a href="{{post.prev.uri}}">&laquo; {{post.prev.title}}</a>
@@ -27,6 +38,7 @@
         <a class="right" href="{{post.next.uri}}">{{post.next.title}} &raquo;</a>
         {% endif %}
     </div>
+    
 
     {% if disqus-shortname %}
     <div id="disqus_thread"></div>

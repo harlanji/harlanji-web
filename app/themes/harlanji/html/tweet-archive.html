@@ -1,0 +1,34 @@
+{% extends "/html/base.html" %}
+{%block subtitle %}: {{post.title}}{% endblock %}
+{% block head %}
+
+
+{% endblock %}
+{% block content %}
+<div id="post">
+
+  {% include "/html/post-header.html" %}
+  
+<ul class="tweets">
+{% for tweet in post.tweets %}
+
+  <li class="tweet">
+    <div class="full-text">{{ tweet.full_text }}</div>
+    <div class="created-at">{{ tweet.created_at }}</div>
+    {% if tweet.favorited %}
+      <div class="favorite">*favorite</div>
+    {% endif %}
+    {% if tweet.in_reply_to_screen_name %}
+      <div class="reply-to">{{ tweet.in_reply_to_screen_name }}</div>
+    {% endif %}
+    {% for entity in tweet.entities %}
+      <div class="entity">entity {{ entity }}</div>
+    {% endfor %}
+  </li>
+
+{% endfor %}
+</ul>
+
+
+</div>
+{% endblock %}
