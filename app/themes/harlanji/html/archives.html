@@ -2,11 +2,74 @@
 {%block subtitle %}: Archives{% endblock %}
 {% block content %}
 
-<script src="js/vis.js">
+
 <script>
-var visItems = [
-  // for each archive item, { ... }
-];
+
+
+var selectedTags = [];
+
+// Hide posts that don't have any selectedTags, and month headings if 
+// all posts in a group are hidden.
+//
+// It's a pretty ridiculous implementation but it works.
+function tagClicked (clickEvent) {
+  
+
+
+  var btn = clickEvent.target;
+  var tag = btn.dataset['tag'];
+  var selected = !btn.className.match("\w?active\w?");
+  
+  if (selected) {
+  	 selectedTags.push(tag);
+  } else {
+    selectedTags = selectedTags.filter(function (checkTag) { return checkTag != tag; });
+  }
+  
+  var els = document.querySelectorAll('.post-tagged');
+  
+  els.forEach(function (el) {
+    var hasSelectedTag = false;
+    
+    selectedTags.forEach(function (checkTag) {
+      if (hasSelectedTag) { return; }    
+    
+      var hasCheckTag = el.className.indexOf('post-tagged-' + checkTag) > -1;
+      
+      hasSelectedTag = hasCheckTag;
+    });
+    
+    if (hasSelectedTag) {
+      $(el).show();
+    } else {
+      $(el).hide();
+    }
+    
+    var list = el.parentElement;
+    var heading = list.previousElementSibling;
+    
+    var children = list.querySelectorAll('li');
+    
+    var hasChildVisible = false;
+    
+    children.forEach(function(child) {
+      if (hasChildVisible) { return; }
+      
+      hasChildVisible = child.style.display != 'none';
+    });
+    
+    if (hasChildVisible) {
+      $(list).show();
+      $(heading).show();
+    } else {
+      $(list).hide();
+      $(heading).hide();
+    }
+    
+  });
+  
+  
+}
 
 </script>
 <div id="timeline">
@@ -20,13 +83,21 @@ var visItems = [
 
     <div id="page-header">
         <h2>{{archives-title}}</h2>
+        <p>Tags: {{tag.name}}</p>
     </div>
+
+<div class="btn-group" role="group" aria-label="Select Data">
+  {% for tag in tags %}
+  <button type="button" class="btn btn-secondary active" data-toggle="button" aria-pressed="true" data-tag="{{ tag.name }}" onclick="tagClicked(event)">{{ tag.name|capitalize }}</button>
+  <script> selectedTags.push('{{ tag.name }}');  </script>  
+  {% endfor %}  
+</div>
 
     {% for group in groups %}
         <h4>{{group.group}}</h4>
         <ul>
         {% for post in group.posts %}
-        <li class="{% for tag in post.tags %}post-tagged-{{tag.name}} {% endfor %}">
+        <li class="post-tagged {% for tag in post.tags %}post-tagged-{{tag.name}} {% endfor %}">
             {% comment %}
               Requires cryogen-project/src/cryogen_core/compiler.clj to have select-keys calls for archive source to include :tags. 0.2.1.
             {% endcomment %}
