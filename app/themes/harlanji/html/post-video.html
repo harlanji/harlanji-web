@@ -1,0 +1,37 @@
+{% extends "/html/post.html" %}
+
+{% block content %}
+<div id="post post-video">
+
+  {% include "/html/post-header.html" %}
+
+   <!-- 
+   you may replace allow element with:
+     allow="allowautoplay; encrypted-media" -->
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ post.yt-video-id }}&amp;t={{ post.yt-video-start-time }}?rel=0&amp;showinfo=0"
+    allow="encrypted-media"
+    allowfullscreen=""
+    width="560"
+    height="315"
+    frameborder="4"
+    >
+  </iframe>
+
+<!--
+    
+  {% include "/html/post-content.html" %}
+
+-->
+
+    <div id="prev-next">
+        {% if post.prev %}
+        <a href="{{post.prev.uri}}">&laquo; {{post.prev.title}}</a>
+        {% endif %}
+        {% if post.next %}
+        <a class="right" href="{{post.next.uri}}">{{post.next.title}} &raquo;</a>
+        {% endif %}
+    </div>
+
+</div>
+{% endblock %}
