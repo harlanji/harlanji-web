@@ -8,15 +8,13 @@
    <!-- 
    you may replace allow element with:
      allow="allowautoplay; encrypted-media" -->
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/{{ post.yt-video-id }}&amp;t={{ post.yt-video-start-time }}?rel=0&amp;showinfo=0"
-    allow="encrypted-media"
-    allowfullscreen=""
-    width="560"
+  
+  <iframe width="560" 
     height="315"
-    frameborder="4"
-    >
-  </iframe>
+    src="https://www.youtube-nocookie.com/embed/{{ post.yt-video-id }}?rel=0&amp;t={{ post.yt-video-start-time }}"
+    frameborder="0"
+    allow="autoplay; encrypted-media;picture-in-picture"
+    allowfullscreen></iframe>
 
 <!--
     
