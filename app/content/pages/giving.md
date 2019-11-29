@@ -8,7 +8,7 @@ Working as a programmer I was earning more than enough money to play; that's cha
 reached a point of unsustainability and could use funding to keep going. I'm currently working 
 "odd jobs" and have spent some time working in food service. Every job has been meaningful and provided growth. Why not work in software? I've [constructively dismissed](https://en.m.wikipedia.org/wiki/Constructive_dismissal) myself or been frivously fired from
 my past five software engineering jobs, after a steady career spanning back to 2002.
-I'd do it, but in addition to weariness companies seem to be tightening the belp on their employees across the board and the
+I'd do it, but in addition to weariness companies seem to be tightening the belt on their employees across the board and the
 intellectual property I'm creating is valuable enough to draw attention; my work for a former employer is patent pending.
 I'm interested 
 in bootstrapping growth into a [B Corporation](https://en.m.wikipedia.org/wiki/B_Corporation_%28certification%29)
