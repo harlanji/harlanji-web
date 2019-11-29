@@ -56,10 +56,11 @@ please let me know a name or alias and URL if you'd like credit.
 
 * My Dad - $1000s, thank you.
 * Classmate from University of Minnesota - over $1000, thank you.
+* My aunt - $1000, thank you.
 * Engineering Manager in Georgia - $100s, thank you.
+* My Mom - $100s, thank you.
 * Former Mentor in Minneapolis - over $100, thank you.
 * Former colleague in the Bay Area - over $100, thank you.
-* My Mom - $100s, thank you.
 * Friend in the Bay Area - $100s, thank you.
 * Engineering Manager from a Big 5 company - $100, thank you.
 * Entrepreneur in Europe - $100, thank you.
