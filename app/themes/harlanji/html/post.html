@@ -12,7 +12,7 @@
 
 <meta property="og:url" content="{{site-url}}{{uri}}">
 <meta property="og:title" content="{{post.title}}">
-<meta property="og:description" content="{{post.title}}.">
+<meta property="og:description" content="{{post.description|default:post.title}}">
 
 {% if post.thumbnail-url %}
 <meta property="og:image" content="{{site-url}}/{{post.thumbnail-url}}">
