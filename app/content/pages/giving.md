@@ -1,6 +1,8 @@
+
 {:title "Giving"
  :layout :page
  :navbar? true
+ :description "HarlanJI gives software"
  :page-index 900}
  
 I've given my life to make great software out in the open with no regard for financies.
@@ -24,6 +26,7 @@ I'll use your hard earned money well. If you've already given, thank you.
 
 ### Ways to Give
 
+* [Merch](/merch) - Buy merch; most items give me $5.
 * [Patreon](https://patreon.com/harlanji) - monthly gifts
 * [Venmo](https://venmo.com/harlanji) - one time gifts
 * PayPal or other - let me know, I'll look into it.
