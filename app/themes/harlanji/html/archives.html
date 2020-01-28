@@ -1,10 +1,12 @@
-{% extends "/html/base.html" %}
+{% extends "/html/base-navbar.html" %}
 {%block subtitle %}: Archives{% endblock %}
-{% block content %}
+
+{% block head %}
+
+{{ block.super }}
 
 
 <script>
-
 
 var selectedTags = [];
 
@@ -53,7 +55,9 @@ function tagClicked (clickEvent) {
     var hasChildVisible = false;
     
     children.forEach(function(child) {
-      if (hasChildVisible) { return; }
+      if (hasChildVisible) {
+       return;
+      }
       
       hasChildVisible = child.style.display != 'none';
     });
@@ -72,6 +76,12 @@ function tagClicked (clickEvent) {
 }
 
 </script>
+
+{% endblock %}
+
+{% block content %}
+
+
 <div id="timeline">
 
 </div>

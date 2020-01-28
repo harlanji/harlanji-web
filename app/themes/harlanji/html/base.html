@@ -21,12 +21,10 @@
     {% block head %}{% endblock %}
 
 </head>
+
 <body>
 
-
-
-{% include "/html/navbar.html" %}
-
+{% block container %}
 
 <div class="container-fluid">
 
@@ -34,7 +32,11 @@
                 {% endblock %}
 </div>
 
+{% endblock %}
+
+
 </body>
+
 </html>
 
 
