@@ -31,20 +31,41 @@ ul, ol {
 	font-weight: bold;
 }
 
-.post-tagged-biz {
-  color: blue;  
+@media (min-width: 768px) {
+  .archive-month h4 {
+    margin-left: 2em;
+    margin-bottom: 1em;
+    font-size: 144%;
+  }
+
+  .archive-month ul {
+    margin-left: 14em;	
+  }
+}
+
+#posts .btn-group button {
+	width: 115px;
+	height: 115px;
+}
+
+.post-tagged {
+  display: block;
+}
+
+.post-tagged .date-day {
+	font-size: larger;
+}
+
+.post-tagged-biz { 
 }
 
 .post-tagged-life {
-  color: red;
 }
 
 
 .post-tagged-review {
-  color: gold;
 }
 
 
 .post-tagged-podcast {
-  color: green;
 }
